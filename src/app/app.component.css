@@ -1,0 +1,56 @@
+.containers {
+    border-top: 5px solid #FFCD00;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 1300px;
+}
+.required .control-label:after {
+    content:"*";
+    color:red;
+}
+.hr{
+    border:none;
+    border-top:2px dotted rgb(100, 96, 96); 
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:100%;
+}
+.trash-icon{
+    color: #15A7E0;
+
+}
+.file-input {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    width: max-content;
+    padding: 8px 1rem;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+.file-input img {
+    width: 1.2rem;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .containers {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .containers{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+.svg-circleplus { height: 25px; stroke: blue; }

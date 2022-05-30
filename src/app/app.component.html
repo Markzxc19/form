@@ -1,0 +1,436 @@
+<div class="containers shadow-lg mt-5 mb-5 p-sm-5 p-4">
+    <form autocomplete="on" method="GET" enctype="multipart/form-data">
+        <div class="row g-3">
+            <div class="form-group required col-md-3 ">
+                <label class="control-label" for="">Account Type</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="">Sub-Account Type</label>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-question-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                </svg>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="form-group required col-md-3">
+                <label class="control-label" for="">IATA Code</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <div class="mb-3 form-group required col-md-6">
+            <label class="control-label">Name of Company</label>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+            <input type="text" class="form-control" name="company" autofocus>
+        </div>
+        <label class="fw-bold my-3">Registered Address</label>
+        <div class="row g-3">
+            <div class="mb-3 form-group required col-md-6">
+                <label class="control-label">House/Building/Apartment No. or Name</label>
+                <input type="text" class="form-control" name="address" placeholder="Enter House/Building/Apartment No. or Name">
+            </div>
+            <div class="mb-3 form-group required col-md-3 ">
+                <label class="control-label">Street</label>
+                <input type="text" class="form-control" name="street" placeholder="Enter Street">
+            </div>
+            <div class="mb-3 form-group required col-md-3">
+                <label class="control-label">Barangay/Town</label>
+                <input type="text" class="form-control" name="brgy" placeholder="Enter Barangay/Town">
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="mb-3 form-group  col-md-3 ">
+                <label class="control-label" for="">Country</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Philippines</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="mb-3 form-group required col-md-3">
+                <label class="control-label">State/Province</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select City</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="mb-3 form-group required col-md-3">
+                <label class="control-label">City</label>
+                <select class="form-select" aria-label="Default select example" >
+                    <option selected>Select State / Province</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="mb-3 form-group required col-md-3">
+                <label class="control-label">Postal Code</label>
+                <input type="text" class="form-control" name="postal" placeholder="Enter Postal Code">
+            </div>
+        </div>
+        <label class="fw-bold my-3">Primary Contact Person</label>
+        <div class="row g-3"> 
+            <div class="mb-3 form-group  col-md-2 ">
+                <label class="control-label" for="">Title</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Mr</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div> 
+            <div class="mb-3 form-group required col-md-3">
+                <label class="control-label">First Name</label>
+                <input type="text" class="form-control" name="first-name" placeholder="Enter First Name">
+            </div>
+            <div class="mb-3 form-group required col-md-2">
+                <label class="control-label">Middle Initial</label>
+                <input type="text" class="form-control" name="middle-name" placeholder="Enter Middle Initiale">
+            </div>
+            <div class="mb-3 form-group required col-md-3">
+                <label class="control-label">Last Name</label>
+                <input type="text" class="form-control" name="last-name" placeholder="Enter Last Name">
+            </div>
+            <div class="mb-3 form-group  col-md-2 ">
+                <label class="control-label" for="">Suffix</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class=" col-md-6">
+                <label class="fw-bold my-3">Office Number</label>
+                <div class="row g-3">
+                    <div class="mb-3 form-group required col-md-3 ">
+                        <label class="control-label" for="">Country Code</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>+63</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 form-group required col-md-9">
+                        <label class="control-label">Office Number</label>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-question-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                        </svg>
+                        <input type="text" class="form-control" placeholder="Enter Postal Code">
+                    </div>
+                </div>
+            </div>
+        
+            <div class=" col-md-6">
+                <label class="fw-bold my-3">Mobile Number</label>
+                <div class="row g-3">
+                    <div class="mb-3 form-group required col-md-3 ">
+                        <label class="control-label" for="">Country Code</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>+63</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 form-group required col-md-9">
+                        <label class="control-label ">Mobile Number</label>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-question-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                        </svg>
+                        <input type="text" class="form-control" name="postal" placeholder="Enter Postal Code">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="authorized-representative">
+            <div class="d-flex justify-content-between">
+                <label class="fw-bold my-3">Authorized Representative for Official Notices/ Communication 1</label>
+                <i (click)="deleteRow($event)" style="cursor: pointer" class="fa fa-trash-o fa-2x trash-icon mt-2"></i>
+            </div>
+            <div class="row g-3">
+                <div class="form-group required col-md-2">
+                    <label class="control-label">Title</label>
+                    <select class="form-select">
+                        <option>+63</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">First Name</label>
+                    <input type="text" class="form-control" name="first-name-1">
+                </div>
+                <div class="mb-3 form-group required col-md-2">
+                    <label class="control-label">Middle Initial</label>
+                    <input type="text" class="form-control" name="middle-name-1">
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Last Name</label>
+                    <input type="text" class="form-control" name="last-name-1">
+                </div>
+                <div class="form-group col-md-2">
+                    <label class="control-label">Suffix</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select</option>
+                        <option value="1">One</option>`
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row g-3">  
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Designation / Job Title</label>
+                    <input type="text" class="form-control" name="job-title-1">
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Email</label>
+                    <input type="text" name="email-1" class="form-control">
+                </div>
+            </div>
+            <div class="hr"></div>
+        </div>
+
+        <div class="authorized-representative">
+            <div class="d-flex justify-content-between">
+                <label class="fw-bold my-3">Authorized Representative for Official Notices/ Communication 2</label>
+                <i (click)="deleteRow($event)" style="cursor: pointer" class="fa fa-trash-o fa-2x trash-icon mt-2"></i>
+            </div>
+            <div class="row g-3">
+                <div class="form-group required col-md-2">
+                    <label class="control-label">Title</label>
+                    <select class="form-select">
+                        <option>+63</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">First Name</label>
+                    <input type="text" class="form-control" name="first-name-2">
+                </div>
+                <div class="mb-3 form-group required col-md-2">
+                    <label class="control-label">Middle Initial</label>
+                    <input type="text" class="form-control" name="middle-name-2">
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Last Name</label>
+                    <input type="text" class="form-control" name="last-name-2">
+                </div>
+                <div class="form-group col-md-2">
+                    <label class="control-label">Suffix</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row g-3">  
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Designation / Job Title</label>
+                    <input type="text" class="form-control" name="job-title-2">
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Email</label>
+                    <input type="text" name="email-2" class="form-control">
+                </div>
+            </div>
+            <div class="hr"></div>
+        </div>
+
+        <div class="authorized-representative">
+            <div class="d-flex justify-content-between">
+                <label class="fw-bold my-3">Authorized Representative for Official Notices/ Communication 3</label>
+                <i (click)="deleteRow($event)" style="cursor: pointer" class="fa fa-trash-o fa-2x trash-icon mt-2"></i>
+            </div>
+            <div class="row g-3">
+                <div class="form-group required col-md-2">
+                    <label class="control-label">Title</label>
+                    <select class="form-select">
+                        <option>+63</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">First Name</label>
+                    <input type="text" class="form-control" name="first-name-3">
+                </div>
+                <div class="mb-3 form-group required col-md-2">
+                    <label class="control-label">Middle Initial</label>
+                    <input type="text" class="form-control" name="middle-name-3">
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Last Name</label>
+                    <input type="text" class="form-control" name="last-name-3">
+                </div>
+                <div class="form-group col-md-2">
+                    <label class="control-label">Suffix</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row g-3">  
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Designation / Job Title</label>
+                    <input type="text" class="form-control" name="job-title-3">
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Email</label>
+                    <input type="text" name="email-3" class="form-control">
+                </div>
+            </div>
+            <div class="hr"></div>
+        </div>
+
+        <!-- Add Name -->
+        <div class="authorized-representative">
+            <div class="d-flex justify-content-between">
+                <label class="fw-bold my-3">Authorized Representative for Official Notices/ Communication 4</label>
+                <i (click)="deleteRow($event)" style="cursor: pointer" class="fa fa-trash-o fa-2x trash-icon mt-2"></i>
+            </div>
+            <div class="row g-3">
+                <div class="form-group required col-md-2">
+                    <label class="control-label">Title</label>
+                    <select class="form-select">
+                        <option>+63</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">First Name</label>
+                    <input type="text" class="form-control" name="first-name-4">
+                </div>
+                <div class="mb-3 form-group required col-md-2">
+                    <label class="control-label">Middle Initial</label>
+                    <input type="text" class="form-control" name="middle-name-4">
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Last Name</label>
+                    <input type="text" class="form-control" name="last-name-4">
+                </div>
+                <div class="form-group col-md-2">
+                    <label class="control-label">Suffix</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row g-3">  
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Designation / Job Title</label>
+                    <input type="text" class="form-control" name="job-title-4">
+                </div>
+                <div class="mb-3 form-group required col-md-3">
+                    <label class="control-label">Email</label>
+                    <input type="text" name="email-4" class="form-control">
+                </div>
+            </div>
+            <div class="hr"></div>
+        </div>
+        <!-- Add Name -->
+
+        <div id="add-button" class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
+            <button (click)="addRow()" type="button" class="btn btn-labeled btn-outline-primary shadow-lg mb-3 fw-bold">
+                <span class="btn-label">
+                    <svg class="svg-circleplus" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" fill="none" stroke-width="7.5"></circle>
+                        <line x1="32.5" y1="50" x2="67.5" y2="50" stroke-width="5"></line>
+                        <line x1="50" y1="32.5" x2="50" y2="67.5" stroke-width="5"></line>
+                    </svg>
+                </span>
+                Add Name
+            </button>
+        </div>
+        <div class="my-3 form-group required">
+            <label class="control-label">Form of Payment</label>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+            <div class="d-flex">
+                <div class="form-check me-3">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Prepaid / Credit Card / Payment Center
+                    </label>
+                </div>
+                <div class="form-check ">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    Credit
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-md-3 mb-3">
+            <label class="control-label" for="">Attachment Type</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select attachment based on account</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="mb-3 form-group required">
+            <i class="fa fa-paperclip text-primary" aria-hidden="true"></i>
+            <label for="formFileSm" class="control-label text-primary fw-bold">Attach file</label>
+            <br>
+            <h6 for="formFileSm" class="text-secondary fw-bold">JPEG, JPG, PNG or PDF file ony. Max file size of 5mb</h6>
+            <input name="Choose File" class="form-control form-control-sm" id="formFileSm" type="file" (change)="onFileSelected($event)">
+            <div class="file-input" id="file-name-container">
+                <span id="fileName">Certification</span>
+                <!-- <span class="close">X</span> -->
+                <img src="../assets/x-image.png" (click)="changeImage()">
+            </div>
+        </div>
+        <div class="d-grid gap-5 d-md-flex justify-content-lg-end">
+            <button style="width: 250px" type="button" class="btn btn-outline-primary">Back</button>
+            <button style="width: 250px" type="submit" class="btn btn-primary">Continue</button>
+        </div>   
+    </form>
+</div>
